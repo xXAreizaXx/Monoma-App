@@ -15,7 +15,14 @@
         "jsx": "preserve",
         "incremental": true,
         "paths": {
-            "@/*": ["./src/*"],
+            "@assets/*": ["./src/assets/*"],
+            "@constants/*": ["./src/constants/*"],
+            "@containers/*": ["./src/containers/*"],
+            "@context/*": ["./src/context/*"],
+            "@hooks/*": ["./src/hooks/*"],
+            "@interfaces/*": ["./src/interfaces/*"],
+            "@pages/*": ["./src/pages/*"],
+            "@shared/*": ["./src/shared/*"],
             "@styles/*": ["./src/styles/*"]
         }
     },
